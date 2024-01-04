@@ -3,7 +3,8 @@
 To develop a Django application to store and retrieve data from a database using Object Relational Mapping(ORM).
 
 # Entity Relationship Diagram
-image
+![image](https://github.com/thunderantony/django-orm-app/assets/149364638/398ba5c1-7cf4-4856-ab64-28721af30bd4)
+
 
 # DESIGN STEPS
 ## STEP 1:
@@ -47,7 +48,8 @@ class Student (models.Model):
 class StudentAdmin (admin.ModelAdmin):
     list_display=('referenceno','name','age','email','mobileno')
 # OUTPUT
-image
+![image](https://github.com/thunderantony/django-orm-app/assets/149364638/9187f228-20c3-402e-85a7-6607c87e0c25)
+
 
 # RESULT
 We have succesfully created 10 student users as a superuser
